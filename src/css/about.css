@@ -70,40 +70,18 @@ padding-left: 5px;
 }
 
 @media screen and (max-width: 980px) {
-.about{
-    flex-direction: column;
-    margin: 10%;
-
-}
-
-.abouttext{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.aboutpic{
-    width: 90%;
-}
-
-    }
-    
-@media screen and (min-width: 980px){
-    
+    .about{
+        flex-direction: column;
+        margin: 10%;
     }
 
+    .abouttext{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
-
-
-
-
-
-
-/*
-_Barlow Semi Condensed_
-_Poppins_
-*/
-
-
-
-
+    .aboutpic{
+        width: 90%;
+    }
+}

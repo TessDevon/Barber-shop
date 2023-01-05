@@ -11,11 +11,6 @@
 
 @import "../css/footer.css";
 
-
-
-
-
-
 /*Code fore font and colorsettings fore the whole project.*/
 
 :root{
@@ -88,11 +83,6 @@ p {
 li{
   color: var(--beige);
 }
-
-
-
-
-
 
 /* TILL NÄSTA GÅNG 
 1. Det är inte mobilefirst.

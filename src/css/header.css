@@ -1,5 +1,4 @@
 
-
 header{
     background-color: var(--dark);
     width: 99.15%;
@@ -7,7 +6,6 @@ header{
     z-index: 10;  
     display: flex;
     justify-content: space-around;
-
 }
 
 li{
@@ -25,12 +23,9 @@ h1 {
     width: 45%;
     text-transform: uppercase;
     font-family: 'Barlow Semi Condensed', sans-serif;
-
 }
 
-
 .menu1{
-    
     list-style: none;
     background-color: var(--dark);
     text-transform: uppercase;
@@ -46,42 +41,36 @@ select{
     height: 80px;
 }
 
-
 @media screen and (max-width: 980px) {
-.menu2{
-    display: none;
-}
+    .menu2{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 980px){
-.nav-li{   
-display: inline;
-padding: 15px;
-font-weight: bold;
-font-size: 1rem;
-text-transform: uppercase;
-color: var(--beige); 
+    .nav-li{   
+        display: inline;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: var(--beige); 
+    }
 
+    .nav-li-first{
+        display: inline;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: var(--primarycolor);
+    }
+
+    .menu2{
+        font-family: 'Barlow Semi Condensed', sans-serif
+    }
+
+    .menu1{
+        display: none;
+    }
 }
-
-.nav-li-first{
-    display: inline;
-    padding: 15px;
-    font-weight: bold;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: var(--primarycolor);
-}
-
-.menu2{
-    font-family: 'Barlow Semi Condensed', sans-serif
-}
-
-.menu1{
-display: none;
-}
-
-}
-
-
-/* Få texten centrerad, lodrätt. Få rätt på fonterna.*/

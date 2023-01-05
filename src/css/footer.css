@@ -1,16 +1,14 @@
 footer{
-        background-color: var(--dark);
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        font-family: 'Poppins', sans-serif;
-        padding-bottom: 5px;
-
+    background-color: var(--dark);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5px;
 }
 
 h5{
     color: var(--beige);
-
 }
 
 
@@ -38,6 +36,7 @@ h5{
 .number{
     color: var(--beige);
 }
+
 .mail{
     color: var(--beige);
 }
@@ -70,6 +69,7 @@ address::before {
     height: 15px;
     margin-right: 5px;
 } 
+
 .adressrow {
     padding-left: 15px;
     padding-top: 0px;
@@ -89,13 +89,12 @@ address::before {
         padding-left: 20px; 
     }
 
-.barbershop{
-    display: none;
-}
+    .barbershop{
+        display: none;
+    }
 
-.three-icon{
-    padding-top: 15px;
-}
-
+    .three-icon{
+        padding-top: 15px;
+    }
 }
 
