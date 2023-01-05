@@ -1,0 +1,148 @@
+
+
+.services{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center; 
+
+}
+
+.servicespic{
+    width: 35%;
+    border-radius: 100%;
+    position: absolute;
+    top: -70px;
+    left: 33%;
+}
+
+.servicespic2{
+    width: 35%;
+    border-radius: 100%;
+    position: absolute;
+    top: -70px;
+    left: 33%;
+}
+
+.servicespic3{
+    width: 35%;
+    border-radius: 100%;
+    position: absolute;
+    top: -70px;
+    left: 33%;
+}
+
+.servicespic4{
+    width: 35%;
+    border-radius: 100%;
+    position: absolute;
+    top: -70px;
+    left: 33%;
+
+}
+
+
+.service-p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+.style{
+    background-color: #BF925B;
+    padding-bottom: 50px;
+    padding-top: 5%;
+    display: flex;
+    position: relative;
+
+
+}
+
+.trim{
+    background-color: #b78649;
+    display: inline-block;
+    padding-top: 5%;
+    display: flex;
+    position: relative;
+}
+
+.shave{
+    background-color: #BF925B;
+    display: inline-block;
+    padding-top: 5%;
+    display: flex;
+    position: relative;
+}
+
+.shampoo{
+    background-color: #b78649;
+    display: inline-block;
+    padding-top: 5%;
+    display: flex;
+    position: relative;
+}
+
+
+@media screen and (max-width: 980px) {
+.services{
+    flex-direction: column;
+}
+
+.style{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+.trim{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+
+.shave{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+
+.shampoo{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.servicespic{
+    width: 10%;
+    top: -18%;  
+    left: 45%;
+}
+
+.servicespic2{
+    width: 10%;
+    top: -18%;
+    left: 45%;  
+}
+
+.servicespic3{
+    width: 10%;
+    top: -18%;
+    left: 45%;  
+}
+
+.servicespic4{
+    width: 10%;
+    top: -18%;
+    left: 45%;  
+}
+
+    }
+    
+@media screen and (min-width: 980px){
+
+    }

@@ -1,0 +1,101 @@
+
+.banner{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+
+.bannerpic1{
+    width: 100%;
+}
+.bannerpic2{
+    width: 100%;
+}
+
+.buttonbanner{
+    background-color: transparent;
+    color: var(--primarycolor);
+    border: 1px solid var(--primarycolor);
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+    
+    .bannerh2{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        font-family: ;
+    }
+
+    .bannerh3{
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+
+    .bannerp{
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        z-index: 3;
+    }
+
+    .bannerpic1{
+        display: none;
+        }
+
+    .buttonbanner{
+        position: absolute;
+        top: 80%;
+        left: 5%;
+    }
+
+}
+    
+@media screen and (min-width: 980px){
+    
+    .bannerh2{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    }
+
+.bannerh3{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.bannerp{
+    position: absolute;
+    top: 65%;
+    left: 50%    
+    /*border-left: 2px solid #dfe2e6; 
+    
+    Får upp felmeddelande om att man inte kan lägga in linje på objekt som är absolut*/
+}
+
+.bannerpic2{
+    display: none;
+    }
+
+.buttonbanner{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    }
+}
+    /*
+.bannertext{
+    color: transparent;
+    border-style: 2px solid beige;
+    text-shadow: 1px solid beige;
+}
+*/
+
+/*Texten ska vara transparant och ha en ram. Detta är tips från klassen men det fungerar inte alls.*/

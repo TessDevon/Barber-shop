@@ -1,0 +1,100 @@
+
+@import "../css/header.css";
+
+@import "../css/banner.css";
+
+@import "../css/service.css";
+
+@import "../css/about.css";
+
+@import "../css/review.css";
+
+@import "../css/footer.css";
+
+
+
+
+
+
+/*Code fore font and colorsettings fore the whole project.*/
+
+:root{
+  --primarycolor:#BF925B;
+  --secondarycolor:#b78649;
+  --light: #EBE8DE;
+  --beige: #dfe2e6;
+  --dark: #141B25;
+}
+
+.reviews{
+  background-color: var(--light);
+}
+
+h2 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;  
+  color: var(--primarycolor);
+}
+
+h3 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  color: var(--beige);
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  color: var(--beige);
+}
+
+h5 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: var(--beige);
+}
+
+.review-text{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: var(--dark);
+}
+
+.h3-dark{
+ color: var(--dark);
+}
+
+.p-dark{
+  color: var(--dark);
+}
+
+.p-gold{
+  color:var(--primarycolor)
+}
+
+.banner{
+  width: 100%;
+  background-color: var(--dark)
+} 
+
+.address{
+  color:var(--beige)
+}
+
+li{
+  color: var(--beige);
+}
+
+
+
+
+
+
+/* TILL NÄSTA GÅNG 
+1. Det är inte mobilefirst.
+2. Ingen bildresponsivitet, med alt.*
+3. Ingen spöktext. /

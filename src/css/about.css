@@ -1,0 +1,109 @@
+
+.about{ 
+    display: flex;
+    margin-left: 10%;
+    margin-right: 8%;
+    }
+
+.abouttext{
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aboutpic{
+    width: 45%;
+} 
+
+.aboutpicexp{
+    background-color: var(--secondarycolor);
+    border: 1px solid var(--secondarycolor);
+    display: inline-block;
+    display: flex;
+    margin-top: 5px;
+}
+
+.aboutpicexp{
+    display: flex;
+    position: relative;
+    padding: 5px;
+}
+   
+.calender-icon{
+padding: 1%;
+background-color: var(--dark);
+width: 80px;
+height: 50px;
+border-radius: 100%;
+}
+
+.calender-pic{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 17px;
+}
+
+.aboutpicexp{
+    width: 145px;
+    padding-right: 30%;
+}
+
+.aboutextra{
+padding-left: 5px;
+}
+
+.aboutp1{
+    margin: 10%;
+    padding-right: 10px;
+    margin: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aboutp{
+    margin: 10%;
+    padding-right: 10px;
+    margin: 2px;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 980px) {
+.about{
+    flex-direction: column;
+    margin: 10%;
+
+}
+
+.abouttext{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aboutpic{
+    width: 90%;
+}
+
+    }
+    
+@media screen and (min-width: 980px){
+    
+    }
+
+
+
+
+
+
+
+
+/*
+_Barlow Semi Condensed_
+_Poppins_
+*/
+
+
+
+

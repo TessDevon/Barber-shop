@@ -1,0 +1,101 @@
+footer{
+        background-color: var(--dark);
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 5px;
+
+}
+
+h5{
+    color: var(--beige);
+
+}
+
+
+.three-icons{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: var(--primarycolor);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.three-icon{
+    width: 15px;
+    height: 15px;
+    padding-top: 7px;
+    padding-left: 1px;
+}
+
+.footer-ul{
+    padding-left: 0px;
+}
+
+
+.number{
+    color: var(--beige);
+}
+.mail{
+    color: var(--beige);
+}
+    
+address::before {
+    content:"";
+    background-image: url(../icons-inlamningsuppgift/map-logo.png);
+    background-size: 15px;
+    display: inline-block; 
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+} 
+
+.phonenumber::before {
+    content:"";
+    background-image: url(../icons-inlamningsuppgift/phone-logo.png);
+    background-size: 15px;
+    display: inline-block; 
+    width: 15px;
+    height: 15px;
+} 
+
+.mail::before {
+    content:"";
+    background-image: url(../icons-inlamningsuppgift/README.png);
+    background-size: 15px;
+    display: inline-block; 
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+} 
+.adressrow {
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mail-div{
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 980px){
+    footer{
+        display: flex;
+        flex-direction: column;   
+        padding-left: 20px; 
+    }
+
+.barbershop{
+    display: none;
+}
+
+.three-icon{
+    padding-top: 15px;
+}
+
+}
+

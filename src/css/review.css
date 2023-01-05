@@ -1,0 +1,106 @@
+
+.reviewtext{
+    display: flex;
+    justify-content: center;
+}
+
+.review-text{
+    display: flex;
+    justify-content: center;
+}
+.reviewtext{
+    margin-top: 0px;
+    padding-top: 15px;
+}
+  
+.reviewparts{
+    display: flex;
+    width: 100%;
+    gap: 0.5%;
+    justify-content: center;
+    /*text-align: center; */
+}
+
+.reviewpart{
+    background-color: white;
+    display: inline-block;
+    margin: 2%;
+    position: relative;
+    width: 20%;
+}
+
+.review-pic-div{
+    width: 40%;
+    margin: 5%;
+}
+
+.reviewspic{
+    width: 90%;
+    border-radius: 100%;
+}
+
+.p-gold-big{
+    color: var(--primarycolor);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.reviewbackdot{
+    width: 35px;
+    height: 35px;
+    color: var(--primarycolor);
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    background-color: var(--primarycolor);
+}
+
+.reviewdot{
+    width: 15px;
+    height: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.review-lower{
+    display: flex;
+    justify-content: start;
+}
+
+.review-group-text{
+    padding: 5px 5px;
+}
+
+.p-dark-review{
+    padding-left: 10%;
+    padding-right: 10%;
+    color: var(--dark);
+}
+
+@media screen and (max-width: 980px){
+
+ 
+    .reviewparts{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center; 
+    }
+
+    .reviewpart{
+        background-color: white;
+        display: inline-block;
+        margin: 2%;
+        position: relative;
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+
